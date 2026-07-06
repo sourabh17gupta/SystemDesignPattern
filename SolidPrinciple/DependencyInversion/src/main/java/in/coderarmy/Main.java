@@ -12,7 +12,8 @@ public class Main {
         //this is done like to add 3rd party integration
 
 
-        //it basically means we code for interface not for class
+        //it basically indirectly says we code for interface not for class
+        //not mean this line this is basically a terminology to absorbe the concept
         UserService user = new UserService(new MySQLDatabase());
         user.saveUser("sourabh");
     }
